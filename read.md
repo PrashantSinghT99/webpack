@@ -15,3 +15,7 @@ module.exports={
         filename:"output.js"
     }
 }
+----------------------------------------------------------------
+
+  dev===>  "build": "webpack --config config.prod.js",
+  prod==>  "start": "webpack-dev-server --mode development --open --config config.dev.js"
